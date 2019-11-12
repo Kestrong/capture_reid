@@ -1,0 +1,4 @@
+# ignore dot files/directories
+*.log*
+.idea
+*.pth

@@ -1,0 +1,13 @@
+scipy==1.2.1
+mxnet_cu90==1.5.1.post0
+faiss_cpu==1.5.3
+numpy==1.17.3
+torchvision==0.2.2
+opencv_python_headless==3.4.5.20
+torch==1.0.1
+easydict==1.9
+Pillow==6.2.1
+faiss==1.5.3
+lib==3.0.0
+mxnet==1.5.1.post0
+scikit_learn==0.21.3
