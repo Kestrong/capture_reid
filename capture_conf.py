@@ -23,6 +23,7 @@ env = {
         'video_on': True,
         'track_on': True,
         'is_async': False,
+        'save': True,
         'source_paths': ['./save/ETH-Jelmoli.mp4,device_2,640,480']  # ['rtsp://admin:admin123@10.27.40.47:554,device_2,1920,1080']
     }),
     'prd': EasyDict({
@@ -47,6 +48,7 @@ env = {
         'video_on': False,
         'track_on': False,
         'is_async': True,
+        'save': True,
         'source_paths': ['rtsp://admin:admin123@10.27.40.47:554,device_2,1920,1080']
     })
 }

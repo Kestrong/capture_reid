@@ -180,7 +180,8 @@ class App(object):
                 [self.pids.add(r[1]) for r in results]
                 logger.info("pid counts:%s", len(self.pids))
                 cost.end(logger.info, show=True)
-            self.save_images(img=im, tracks=results)
+            if self.conf.save:
+                self.save_images(img=im, tracks=results)
         except Exception as e:
             logger.error(e, exc_info=True)
 
